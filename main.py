@@ -25,7 +25,6 @@ if tomato_model:
     tomato_model.summary()
 
 
-# Disease impact dictionary (with disease types)
 disease_yield_loss = {
     'tom_bacterial_spot': {'loss': 75, 'type': 'Bacterial'},  # Bacterial spot
     'tom_early_blight': {'loss': 80, 'type': 'Fungal'},  # Early blight
@@ -44,7 +43,6 @@ disease_yield_loss = {
     'tom_yellow_leaf_curl_virus': {'loss': 100, 'type': 'Viral'},  # Yellow leaf curl virus
 }
 
-# Define optimal conditions for each disease (excluding deficiencies)
 optimal_conditions = {
     'tom_bacterial_spot': {'temp': 24, 'humidity': 80},  # Bacterial spot
     'tom_early_blight': {'temp': 25, 'humidity': 95},  # Early blight
